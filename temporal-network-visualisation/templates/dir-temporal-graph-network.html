@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temporal Graph Network</title>
+        <script src="https://d3js.org/d3.v6.min.js" defer></script>
+        <link rel="stylesheet" href="static/stylesheet/dir-temporal-graph-network.css">
+    </head>
+
+    <body>
+        <h1 id="temporal-graph-network-title">Temporal Graph Network</h1>
+        <div id="slider-container">
+            <div>
+                <label>Start Time</label>
+                <input id="sliderStart" type="range">
+                <label id="sliderStartValue">100</label>
+            </div>
+            <div>
+                <label>End Time</label>
+                <input id="sliderEnd" type="range">
+                <label id="sliderEndValue">100</label>
+            </div>
+        </div>
+        <div>
+            <div>
+                <button id="verticeLabelBtn">Vertice Label</button>
+                <button id="edgeLabelBtn">Edge Label</button>
+            </div>
+        </div>
+        <div id="visualisation"></div>
+    </body>
+    <script type="text/javascript" src="static/settings.js"></script>
+    <script type="text/javascript" src="static/pallete.js"></script>
+    <script type="text/javascript" src="static/data-handler.js"></script>
+    <script type="text/javascript" src="static/handlers/mouse-handler.js"></script>
+    <script type="text/javascript" src="static/handlers/drag-handler.js"></script>
+    <script type="text/javascript" src="static/handlers/event-handler.js"></script>
+    <script type="text/javascript" src="static/user/user-dashboard.js" defer></script>
+    <script type="text/javascript" src="static/user/user-slider.js"></script>
+    <script type="text/javascript" src="static/directed-temporal-graph-network.js" defer></script>
+    <script type="text/javascript" src="static/main.js"></script>
+</html>
+
+

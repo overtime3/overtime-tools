@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    border: 2px solid #fff;
+}
+
+button {
+    margin: 10px auto;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+circle {
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+path.edge {
+    fill: none;
+    /* stroke: #191919; */
+    stroke-width: 2px;
+}
+
+.vertex {
+    position: relative;
+    z-index: -1;
+}
